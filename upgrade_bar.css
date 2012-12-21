@@ -1,0 +1,32 @@
+#upgrade_bar {
+    /* The filter creates a vertical background gradient that works in IE6-IE8 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9c019', endColorstr='#ee4727', GradientType=0);
+    position: relative;
+    height: 42px;
+    text-align: center;
+}
+#upgrade_bar div {
+    display: inline-block;
+    width: 920px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+}
+#upgrade_bar div span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+#upgrade_bar div img {
+    margin: 0 10px;
+    vertical-align: middle;
+}
+#upgrade_bar_link {
+    display: block;
+    height: 42px;
+    position: relative;
+    background: url('transparent_link_bg.png'); /* so the user can click anywhere on the empty link */
+    margin-top: -42px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
