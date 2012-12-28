@@ -5,6 +5,7 @@
     height: 42px;
     text-align: center;
 }
+
 #upgrade_bar div {
     display: inline-block;
     width: 920px;
@@ -13,14 +14,17 @@
     color: white;
     font-size: 14px;
 }
+
 #upgrade_bar div span {
     font-weight: bold;
     margin-right: 10px;
 }
+
 #upgrade_bar div img {
     margin: 0 10px;
     vertical-align: middle;
 }
+
 #upgrade_bar_link {
     display: block;
     height: 42px;
